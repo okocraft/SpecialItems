@@ -1,0 +1,15 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}
+author: LazyGon
+api-version: 1.14
+description: Plugin that manage special items.
+
+commands:
+  specialitems:
+    description: "Main command of this plugin."
+    permission: "specialitems.command"
+
+permissions:
+  specialitems.command:
+    default: op
